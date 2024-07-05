@@ -1,0 +1,26 @@
+/* styles.css */
+.container {
+    display: flex;
+    justify-content: flex-end; /* Alinea los cuadros a la derecha */
+    align-items: flex-start;   /* Alinea los cuadros en la parte superior */
+    height: 100vh;             /* Esto es solo para centrar verticalmente en la página */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}

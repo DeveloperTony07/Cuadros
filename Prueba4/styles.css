@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite a los cuadros saltar a la siguiente línea */
+    justify-content: center; /* Centra los cuadros horizontalmente */
+    align-items: center; /* Alinea los cuadros en el centro verticalmente */
+    width: 100%;
+    max-width: 600px; /* Máximo ancho del contenedor */
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* Colores originales */
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
